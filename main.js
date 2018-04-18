@@ -11,7 +11,7 @@ window.addEventListener("load", () => {
         return elements;
     }
 
-    // select text in a container
+    // select text in a container (div, section, span, ...)
     // src: https://stackoverflow.com/questions/1173194/select-all-div-text-with-single-mouse-click?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
     function selectElementText(containerid) {
         var element = get(containerid);
