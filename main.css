@@ -1,0 +1,50 @@
+body,
+.control-container,
+.control-container * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.panel {
+    position: relative;
+    max-width: 50%;
+    margin: 50px auto;
+}
+
+.control-container {
+    position: relative;
+}
+
+.control-container * {
+    display: block;
+}
+
+.control-container label {
+    padding: 5px 0;
+}
+
+.control-container input {
+    padding: 5px;
+    width: 100%;
+}
+
+.control-container button {
+    padding: 5px 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.control-container output {
+    width: 100%;
+    margin-top: 5px;
+    border: 1px dashed gray;
+    word-wrap: break-word;
+    min-height: 50px;
+}
+
+.control-container a {
+    margin-top: 5px;
+    color: #5353ff;
+    cursor: pointer;
+}

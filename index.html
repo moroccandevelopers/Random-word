@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Random word | Example</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+    <div class="panel">
+        <div class="control-container">
+            <label>Char list (keep it empty to use the default char list)</label>
+            <input id="txtCharList" placeholder="abc.,:..."/>
+        </div>
+
+        <div class="control-container">
+            <label>Password length</label>
+            <input id="txtWordLength" type="number" min="3" value="3" />
+        </div>
+
+        <div class="control-container">
+            <button id="btnGenerate">Generate</button>
+        </div>
+
+        <div class="control-container">
+            <output id="outWord"></output>
+            <a id="btnCopy">Copy</a>
+        </div>
+    </div>
+</body>
+
+</html>
